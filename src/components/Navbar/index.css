@@ -1,0 +1,89 @@
+/* Navbar container */
+.navbar {
+    width: 100%;  /* Ensure the navbar occupies the full width of the viewport */
+    height: 64px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 270px; /* Align with the sidebar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Make sure it's on top of other elements */
+  }
+  
+  /* Left side (Chat/Feedchat) */
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Middle section (Home symbol) */
+  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Take up the remaining space */
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Right side (Profile, Settings, Logout) */
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  
+  /* Profile section */
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* User Information */
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .userInfo span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Icons (Settings & Logout) */
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    filter: brightness(0.8);
+  }
+  

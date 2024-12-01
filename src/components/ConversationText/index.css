@@ -1,0 +1,38 @@
+/* Container for all conversation text */
+.conversationTextContainer {
+    width: 478px;
+    height: 51px;
+    top: 178px;
+    left: 770px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-bottom: 1px solid #ccc; /* 1px border bottom */
+    padding: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Individual conversation text item */
+  .conversationText {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: blue; /* Blue color for normal text */
+  }
+  
+  /* For update marked with * */
+  .update {
+    color: red;  /* Red for updates */
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  /* For fee reversal marked with * */
+  .feeReversal {
+    color: green;  /* Green for fee reversals */
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

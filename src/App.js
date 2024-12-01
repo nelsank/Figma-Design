@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './components/SideBar';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
+import CustomerProfile from './components/CustomerProfile';
+import ConversationText from './components/ConversationText';
+import EscalateButton from './components/EscalateButton';
+import Chatbox from './components/ChatBox';
+import AskCatura from './components/AskCatura';
+import ActionLauncher from './components/ActionLauncher';
+import CaseFavorite from './components/CaseFavorite';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Sidebar />
+      <Navbar />
+      <Profile />
+      <CustomerProfile />
+      <ConversationText />
+      <EscalateButton />
+      <Chatbox />
+      <AskCatura />
+      <ActionLauncher />
+      <CaseFavorite />
     </div>
   );
 }

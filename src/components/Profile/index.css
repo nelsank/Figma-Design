@@ -1,0 +1,55 @@
+/* Profile Component Container */
+.profileContainer {
+    display: flex;
+    gap: 15px;
+    margin-left: 295px; /* Align with sidebar */
+    position: fixed;
+    top: 89px; /* Position below navbar */
+    width: 1575px;
+    height: 64px;
+    align-items: center;
+  }
+  
+  /* Profile Styles */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Profile Picture */
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Initials (CB) */
+  .initials {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Profile Name */
+  .profileName {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Highlighted Profile (Hannibai SBI) */
+  .highlight {
+    background-color: #f0f8ff; /* Light background color */
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: aqua;
+    color: #333;
+    border-width: none;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: none;
+  }
+  

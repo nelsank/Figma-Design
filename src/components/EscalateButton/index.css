@@ -1,0 +1,34 @@
+/* Container for the Escalate Button */
+.escalateButtonContainer {
+    position: absolute;
+    top: 180px;
+    left: 1263px;
+    width: 132px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Escalate button styling */
+  .escalateButton {
+    width: 132px;            /* Fixed width */
+    height: 47px;            /* Fixed height */
+    background-color: red;   /* Red background */
+    color: white;            /* White text */
+    border: none;            /* No border */
+    border-radius: 10px;     /* Rounded corners */
+    font-size: 16px;         /* Font size */
+    font-weight: bold;       /* Bold text */
+    cursor: pointer;        /* Pointer cursor on hover */
+    padding-top: 16px;       /* Padding top */
+    padding-right: 30px;     /* Padding right */
+    padding-bottom: 16px;    /* Padding bottom */
+    padding-left: 10px;      /* Padding left */
+  }
+  
+  .escalateButton:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  

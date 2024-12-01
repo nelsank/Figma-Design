@@ -1,0 +1,51 @@
+/* Action Launcher Container */
+.actionLauncherContainer {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 572px;
+    left: 1420px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Search Bar */
+  .searchBar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Action Buttons Container */
+  .actionButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Individual Action Buttons */
+  .actionButton {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover Effect for Action Buttons */
+  .actionButton:hover {
+    background-color: #0056b3;
+  }
+  

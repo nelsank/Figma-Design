@@ -1,0 +1,107 @@
+/* Container for the Ask Catura box */
+.askCaturaContainer {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 178px;
+    left: 1420px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Heading of the Ask Catura box */
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Options section (Greeting and WhatsApp options) */
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  /* Individual option (Greeting / WhatsApp) */
+  .option {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Selected option style */
+  .option.selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Template text */
+  .template {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Copy to Send button */
+  .copyButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .copyButton:hover {
+    background-color: #218838;
+  }
+  
+  /* Previous button */
+  .previousButton {
+    background-color: #f0f0f0;
+    color: #007bff;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .previousButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Message input field */
+  .messageInput input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Send button */
+  .sendButton {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .sendButton:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,114 @@
+/* Profile Widget container */
+.profileWidget {
+    width: 450px;
+    height: 1060px;
+    top: 178px;
+    left: 295px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    overflow-y: auto;
+  }
+  
+  .profileHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .initials {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .profileInfo h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .locationIcon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .customerDetails, .loyaltyTier, .lifeTimeValue {
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .detail label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .detail span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .addButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .actionButton {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .actionButton:hover {
+    background-color: #0056b3;
+  }
+  

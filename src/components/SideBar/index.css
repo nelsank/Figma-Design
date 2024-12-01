@@ -1,0 +1,83 @@
+/* Sidebar styles */
+.sidebar {
+    width: 270px;
+    height: 960px;
+    background-color: black;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Menu List Styles */
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Menu Item Styles */
+  .menuItem {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: #c1c7d0;
+    transition: background-color 0.3s;
+    position: relative;
+  }
+  
+  /* Highlighted "Queue" Menu Item */
+  .menuItem.highlight {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  /* Dropdown Item Styles */
+  .dropdownItem {
+    padding: 10px;
+    font-size: 14px;
+    color: #c1c7d0;
+    cursor: pointer;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
