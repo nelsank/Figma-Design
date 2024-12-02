@@ -32,18 +32,19 @@ const CustomerProfileComponent = () => {
         <div className="detail">
           <label>Customer ID:</label>
           <span>12345</span>
-          <button className="addButton">Add</button>
         </div>
         <div className="detail">
           <label>Email Address:</label>
           <span>habbibal@example.com</span>
-          <button className="addButton">Add</button>
         </div>
         <div className="detail">
           <label>Phone Number:</label>
           <span>+1234567890</span>
-          <button className="addButton">Add</button>
         </div>
+        <div className="add-container">
+            <button className="addButton">Add</button>
+        </div>
+        
       </div>
 
       {/* Loyalty & Engagement */}
@@ -51,12 +52,13 @@ const CustomerProfileComponent = () => {
         <div className="detail">
           <label>Loyalty Tier:</label>
           <span>Silver</span>
-          <button className="addButton">Add</button>
         </div>
         <div className="detail">
           <label>Segment:</label>
           <span>Sleepy Customer</span>
-          <button className="addButton">Add</button>
+        </div>
+        <div className="add-container">
+            <button className="addButton">Add</button>
         </div>
       </div>
 
@@ -64,13 +66,17 @@ const CustomerProfileComponent = () => {
       <div className="lifeTimeValue">
         <div className="detail">
           <label>Lifetime Value:</label>
-          <span>$1M</span>
-          <button className="addButton">Add</button>
+          <span>$1M</span>  
+        </div>
+        <div className="add-container">
+            <button className="addButton">Add</button>
         </div>
         <div className="detail">
           <label>Engagement Score:</label>
           <span>95%</span>
-          <button className="addButton">Add</button>
+        </div>
+        <div className="add-container">
+            <button className="addButton">Add</button>
         </div>
       </div>
 

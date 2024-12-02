@@ -85,6 +85,13 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    align-items: center;
+  }
+
+  .add-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .addButton:hover {
@@ -95,6 +102,8 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
   }
   
   .actionButton {
@@ -106,6 +115,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    height:50px;
+    width:150px;
   }
   
   .actionButton:hover {

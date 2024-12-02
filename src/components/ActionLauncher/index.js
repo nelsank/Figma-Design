@@ -31,6 +31,8 @@ const ActionLauncher = () => {
         <button className="actionButton" onClick={() => handleActionClick('Fee Reversal')}>
           Fee Reversal
         </button>
+        </div>
+        <div className="actionButtons">
         <button className="actionButton" onClick={() => handleActionClick('Real Onboarding')}>
           Real Onboarding
         </button>

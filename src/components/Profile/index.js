@@ -16,12 +16,9 @@ const ProfileComponent = () => {
           key={index}
           className={`profile ${profile.name === 'Hannibai SBI' ? 'highlight' : ''}`}
         >
-          <img
-            src="https://www.w3schools.com/w3images/avatar2.png"
-            alt={profile.name}
-            className="profilePic"
-          />
-          <span className="initials">{profile.initials}</span>
+            <p className="profilePic">HB</p>
+        
+          
           <span className="profileName">{profile.name}</span>
         </div>
       ))}
